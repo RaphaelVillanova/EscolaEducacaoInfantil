@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro de Eventos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="busca.html">Buscar</a></li>
+                <li><a href="eventos.html">Cadastro de Eventos</a></li>
+                <li><a href="cadastro_pessoas.html">Cadastro de Pessoas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastro de Eventos</h2>
+        <form id="cadastro-evento">
+            <label for="nomeEvento">Nome do Evento:</label>
+            <input type="text" id="nomeEvento" name="nomeEvento" required>
+            
+            <label for="dataEvento">Data do Evento:</label>
+            <input type="date" id="dataEvento" name="dataEvento" required>
+            
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" required></textarea>
+            
+            <button type="submit">Cadastrar Evento</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Escola Infantil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

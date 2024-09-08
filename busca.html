@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Buscar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="busca.html">Buscar</a></li>
+                <li><a href="eventos.html">Cadastro de Eventos</a></li>
+                <li><a href="cadastro_pessoas.html">Cadastro de Pessoas</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Buscar Turmas e Atividades</h2>
+        <form action="resultados.html" method="GET">
+            <label for="turma">Turma:</label>
+            <select id="turma" name="turma">
+                <option value="">Selecione uma turma</option>
+                <option value="Jardim I">Jardim I</option>
+                <option value="Jardim II">Jardim II</option>
+                <option value="Pré I">Pré I</option>
+                <option value="Pré II">Pré II</option>
+            </select>
+            <label for="atividade">Atividade:</label>
+            <input type="text" id="atividade" name="atividade" placeholder="Digite uma atividade">
+            <label for="data">Data da Atividade:</label>
+            <input type="date" id="data" name="data">
+            <button type="submit">Buscar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Escola Infantil. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
